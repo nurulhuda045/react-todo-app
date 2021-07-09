@@ -8,6 +8,7 @@ const Todo = ({todos, removeTodo}) => {
 			<div key={todo.id}>
 				{todo.text}
 			</div>
+			<h1>1</h1>
 			<div className='icons'>
 				<RiCloseCircleLine
 					onClick={() => removeTodo(todo.id)}
